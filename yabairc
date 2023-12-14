@@ -9,6 +9,7 @@ yabai -m rule --add app='^System Information$' manage=off
 yabai -m rule --add app='^System Preferences$' manage=off
 yabai -m rule --add title='Preferences$' manage=off
 yabai -m rule --add title='Settings$' manage=off
+yabai -m rule --add title="^Vimcal$" manage=off
 
 declare -A gaps
 declare -A color
